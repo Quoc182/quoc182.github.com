@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web du lịch</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    
+<script src="jv/jquery-3.2.1.slim.min.js"></script>
+<script src="jv/bootstrap.min.js"></script>
+
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+$(function() {
+    $('#map a').lightBox();
+});
+</script>
+
+</head>
+<body class="subpage">
+
+ <div id="tooplate_wrapper">
+	<div id="tooplate_header">
+    	
+        <div id="site_title"><h1><a href="#">Web du lịch</a></h1></div>
+        
+        <div class="cleaner"></div>
+    </div>
+    
+    <div id="tooplate_menu">
+        <ul>
+            <li><a href="trangchu.html" class="current">Trang chủ</a></li>
+            <li><a href="chitietdulich.html">Chi tiết điểm du lịch</a></li>
+            <li><a href="review.html">review về điểm du lịch</a></li>
+            <li class="last"><a href="lienhe.html">liên hệ </a></li>
+            <li><a href="test.html">video hoan thanh do an</a></li>
+        </ul>    		
+        
+        <div id="search_box">
+            <form action="#" method="get">
+                <input type="text" value="Search" name="q" size="10" id="searchfield" title="searchfield" onfocus="clearText(this)" onblur="clearText(this)" />
+                <input type="submit" name="Search" value="" id="searchbutton" title="Search" />
+            </form>
+        </div>
+		
+        <div class="cleaner"></div>
+    </div> 
+    <iframe width="760" height="515" src="https://www.youtube.com/embed/dN3Hvqigk7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>

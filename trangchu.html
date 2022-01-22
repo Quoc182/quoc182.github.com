@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB giới thiệu các địa điểm du lịch nghệ an</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <script src="jv/jquery-3.2.1.slim.min.js"></script>
+    <script src="jv/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random',
+		slices:10,
+		animSpeed:500,
+		pauseTime:2200,
+		startSlide:0, 
+		directionNav:false,
+		directionNavHide:false,
+		controlNav:false, 
+		controlNavThumbs:false, 
+		pauseOnHover:true, 
+		manualAdvance:false, 
+		captionOpacity:0.8, 
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} 
+	});
+});
+</script>
+
+</head>
+<body class="homepage">
+
+<div id="tooplate_wrapper">
+	<div id="tooplate_header">
+    	
+        <div id="site_title"><h1><a href="#">web du lich</a></h1></div>
+        
+        <div class="cleaner"></div>
+    </div>
+    
+    <div id="tooplate_menu">
+        <ul>
+            <li><a href="trangchu.html" class="current">Trang chủ</a></li>
+            <li><a href="chitietdulich.html">Chi tiết điểm du lịch</a></li>
+            <li><a href="review.html">review về điểm du lịch</a></li>
+            <li class="last"><a href="lienhe.html">liên hệ </a></li>
+            <li><a href="test.html">video hoan thanh do an</a></li>
+        </ul>    	
+        
+        <div id="search_box">
+            <form action="#" method="get">
+                <input type="text" value="Search" name="q" size="10" id="searchfield" title="searchfield" onfocus="clearText(this)" onblur="clearText(this)" />
+                <input type="submit" name="Search" value="" id="searchbutton" title="Search" />
+            </form>
+        </div>
+		
+        <div class="cleaner"></div>
+    </div> 
+    
+    <div id="tooplate_middle">
+    
+        <div id="slider">
+            <a href="#"><img src="images/slideshow/01.jpg" alt="nature 1" title="nghệ an " /></a>
+            <a href="#"><img src="images/slideshow/02.jpg" alt="nature 2" title="các điểm du lịch" /></a>
+            <a href="#"><img src="images/slideshow/03.jpg" alt="nature 3" title="du lịch nghệ an" /></a>
+            <a href="#"><img src="images/slideshow/04.jpg" alt="nature 4" title="thành phố vinh nghệ an" /></a>
+        </div>
+	</div>
+        
+    <div id="tooplate_main">
+    	
+        <div class="col_w960">
+        	<h2>Chào mừng đến với Nghệ AN</h2>
+            <div class="col_w450 float_l">
+                <div class="wwd_box">
+                	<img src="images/icon1.png" alt="Work One" />
+                    <h3><a href="#"></a></h3>
+                    <p>Nói đến Nghệ An là nói đến quê hương Chủ tịch Hồ Chí Minh, người anh hùng giải phóng dân tộc, danh nhân văn hóa kiệt xuất. Dù miền xuôi hay miền ngược, dù thị thành hay hải đảo xa xôi, ở đâu thì những người con đất Việt cũng đau đáu một lần trong đời được về thăm quê Bác.
+
+                    </p>
+                     <a href="#" class="more float_r">Xem thêm</a>
+                    <div class="cleaner"></div>
+                </div>
+				
+                <div class="wwd_box">
+                	<img src="images/icon2.png" alt="Work One" />
+                    <h3><a href="#">Tuyệt cảnh của thiên nhiên </a></h3>
+                     <p>Nghệ An đang dần trở thành điểm du lịch lôi cuốn giới trẻ bởi cảnh thiên nhiên phong phú và xinh tươi..</p>
+                     <a href="#" class="more float_r">Xem Thêm</a>
+                  <div class="cleaner"></div>
+                </div>
+            </div>
+            
+            <div class="col_w450 float_r">
+              	<div class="wwd_box">
+                	<img src="images/icon3.png" alt="Work One" />
+                    <h3><a href="#">Mang Đậm Tính Lịch Sử</a></h3>
+                    <p>Di tích lịch sử ở Nghệ An nổi tiếng với những công trình lịch sử hoặc điểm đến gắn liền với các danh nhân huyền thoại. Đây là một trong những hoạt động du lịch hấp dẫn bậc nhất tại Nghệ An..</p>
+                     <a href="#" class="more float_r">Xem Thêm</a>
+                    <div class="cleaner"></div>
+                </div>
+				
+                <div class="wwd_box">
+                	<img src="images/icon4.png" alt="Work One" />
+                    <h3><a href="#">Ẩm thực nghệ an</a></h3>
+                    <p>Một trong những lý do khiến du khách ấn tượng bởi Nghệ An là những món đặc sản Nghệ An làm quà vừa độc đáo vừa chất lượng. Khách đến du lịch có thể tha hồ khám phá, thưởng thức và mua về tặng cho người thân.</p>
+                     <a href="#" class="more float_r">Xem Thêm</a>
+                  <div class="cleaner"></div>
+                </div>
+            </div>
+            
+            <div class="cleaner"></div>
+		</div>
+    
+    	<div class="col_w960 col_w960_last">
+        	<h2>Những người thực hiện web</h2>
+            <div class="lp_box">
+                <h6>Lê Xuân Sơn </h6>
+                <a href="#"><img src="images/tooplate_image_01.jpg" alt="Image 01" /></a>
+                <p>Họ và Tên : Lê Xuân Sơn lớp 61K1 - Mã Sinh Viên: 205748020110014.</p>
+                <a href="#" class="more float_r">Xem Thêm</a>
+                    <div class="cleaner"></div>
+        	</div>
+			
+            <div class="lp_box">
+                <h6>Nguyễn Bảo Quốc</h6>
+                <a href="#"><img src="images/tooplate_image_02.jpg" alt="Image 02" /></a>
+              	<p>Họ và Tên : Nguyễn Bảo Quốc Lớp 61K3- Mã Sinh Viên:205748020110058.</p>
+                <a href="#" class="more float_r">Xem Thêm</a>
+                    <div class="cleaner"></div>
+        	</div>
+			
+			<div class="lp_box lp_box_last">
+                <h6>Thầy Hướng Dẫn : Cao Thanh SƠn</h6>
+                <a href="#"><img src="images/tooplate_image_03.jpg" alt="Image 03" /></a>
+				<p>Bọn em vô cùng cảm ơn sự hướng dẫn tận tình của thầy đã giúp bọn em hoàn thành đồ án Lập trình web </p>
+                <a href="#" class="more float_r">Xem Thêm</a>
+                <div class="cleaner"></div>
+            </div>
+			
+            <div class="cleaner"></div>
+        </div>
+        
+        <div class="cleaner"></div>
+    </div> 
+        
+</div> 
+
+<div id="tooplate_cr_wrapper">
+	<div id="tooplate_cr">
+        Vinh 2022 <a href="#">Sơn và Quốc</a> - Design: Quốc và sơn 
+        
+    </div> 
+</div> 
+
+</body>
+</html>
